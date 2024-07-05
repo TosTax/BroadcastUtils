@@ -5,6 +5,7 @@
 
  # Features
 * Broadcast message displayed to the player when they join the server
+* Broadcast message displayed to the player when they spawn
 * Broadcast message displayed to the player when they are muted
 * Broadcast message displayed to the player when they are unmuted
 
