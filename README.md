@@ -28,7 +28,6 @@ player_spawned:
 player_muted:
   is_enabled: true
   intercom:
-  # Broadcast sent to player when muted from the Intercom (Use %issuer% to get the nickname of the moderator)
     broadcast: <color=#FF0000>You have been restricted from using the Intercom!</color>
     duration: 5
   voice_chat:
