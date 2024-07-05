@@ -19,15 +19,20 @@
 is_enabled: true
 player_joined:
   is_enabled: true
-  broadcast: <color=#0000FF>Welcome to the server!</color>
+  broadcast: <color=#0000FF>Welcome to the server %player%!</color>
   duration: 5
+player_spawned:
+  is_enabled: true
+  broadcast: <color=#0000FF>Remember the rules, %player%!</color>
+  duration: 3
 player_muted:
   is_enabled: true
   intercom:
+  # Broadcast sent to player when muted from the Intercom (Use %issuer% to get the nickname of the moderator)
     broadcast: <color=#FF0000>You have been restricted from using the Intercom!</color>
     duration: 5
   voice_chat:
-    broadcast: <color=#FF0000>You have been muted!</color>
+    broadcast: <color=#FF0000>You have been muted by %issuer%!</color>
     duration: 5
 player_un_muted:
   is_enabled: true
