@@ -1,5 +1,5 @@
 # BroadcastUtils ![Downloads](https://img.shields.io/github/downloads/TosTax/BroadcastUtils/total)
- My first SCP:SL plugin made public using the Official NorthWood API.
+ Made using the Official NorthWood Plugin API.
 
  This plugin was made inspired by the EXILED plugin [AutoBroadcast](https://github.com/Misfiy/AutoBroadcast)
 
