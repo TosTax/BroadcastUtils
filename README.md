@@ -1,17 +1,33 @@
 # BroadcastUtils ![Downloads](https://img.shields.io/github/downloads/TosTax/BroadcastUtils/total)
- Made using the Official NorthWood Plugin API.
+SCP:SL plugin with different Broadcast utilities. Made using [NorthWood Plugin API](https://github.com/northwood-studios/NwPluginAPI).
 
- This plugin was made inspired by the EXILED plugin [AutoBroadcast](https://github.com/Misfiy/AutoBroadcast)
+This plugin was made inspired by the EXILED plugin [AutoBroadcast](https://github.com/Misfiy/AutoBroadcast)
 
- # Features
+
+# Features
 * Broadcast message displayed to the player when they join the server
 * Broadcast message displayed to the player when they spawn
 * Broadcast message displayed to the player when they are muted
 * Broadcast message displayed to the player when they are unmuted
 
+
+# Installation
+
+## Automatic
+1. If you don't have the plugin manager enabled run in the server console `p`and then `p confirm`to enable the plugin manager
+2. Run `p install TosTax/BroadcastUtils`in your console to automatically install the plugin in your server
+3. Restart your server
+
+## Manual
+1. Download the `BroadcastUtils.dll` from the [latest release](https://github.com/TosTax/BroadcastUtils/releases/latest)
+2. Place the dll in your plugins folder
+3. Restart your server
+
+
 # Support
 * For any issues create an issue or contact me in [Discord](https://discord.gg/fxHnJNukfp)
 * If you want something added you can ask for it in Discord too
+
 
 # Config
 * Example config file:
