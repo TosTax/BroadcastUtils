@@ -4,14 +4,14 @@
 
     public class MainConfig
     {
-        [Description("Wheter the plugin is enabled")]
+        [Description("Whether the plugin is enabled")]
         public bool IsEnabled { get; set; } = true;
 
         public PlayerJoin PlayerJoined { get; set; } = new PlayerJoin();
         public class PlayerJoin
         {
 
-            [Description("Wheter Player broadcast when he joins is enabled")]
+            [Description("Whether Player broadcast when he joins is enabled")]
             public bool isEnabled { get; set; } = true;
 
             [Description("Broadcast sent to player when he joins the server (use %player% to show his nickname)")]
@@ -25,7 +25,7 @@
         public class PlayerSpawn
         {
 
-            [Description("Wheter Player broadcast when he spawns is enabled")]
+            [Description("Whether Player broadcast when he spawns is enabled")]
             public bool isEnabled { get; set; } = true;
 
             [Description("Broadcast sent to player when he spawns (use %player% to show his nickname)")]
@@ -39,7 +39,7 @@
         public class PlayerMute
         {
 
-            [Description("Wheter Player broadcast when muted from Intercom or Voice Chat is enabled")]
+            [Description("Whether Player broadcast when muted from Intercom or Voice Chat is enabled")]
             public bool isEnabled { get; set; } = true;
             public Ic Intercom { get; set; } = new Ic();
             public class Ic
@@ -65,7 +65,7 @@
         public PlayerUnMute PlayerUnMuted { get; set; } = new PlayerUnMute();
         public class PlayerUnMute
         {
-            [Description("Wheter Player broadcast when unmuted from the Intercom or Voice Chat is enabled")]
+            [Description("whether Player broadcast when unmuted from the Intercom or Voice Chat is enabled")]
             public bool isEnabled { get; set; } = true;
             public Ic Intercom { get; set; } = new Ic();
             public class Ic
