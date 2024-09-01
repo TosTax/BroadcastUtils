@@ -65,7 +65,7 @@
         public PlayerUnMute PlayerUnMuted { get; set; } = new PlayerUnMute();
         public class PlayerUnMute
         {
-            [Description("whether Player broadcast when unmuted from the Intercom or Voice Chat is enabled")]
+            [Description("Whether Player broadcast when unmuted from the Intercom or Voice Chat is enabled")]
             public bool isEnabled { get; set; } = true;
             public Ic Intercom { get; set; } = new Ic();
             public class Ic
